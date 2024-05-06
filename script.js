@@ -1,7 +1,20 @@
-console.log(+(7, 4))
+function add(num1, num2){
+  return num1 + num2;
+}
 
-console.log(-(4, 7))
+function subtraction(num1, num2){
+  return num1 - num2;
+}
 
-console.log(*(7, 4))
+function multiply(num1, num2){
+  return num1 * num2;
+}
 
-console.log(/(4, 7))
+function divide(num1, num2){
+  if (num2 !==0){
+    return num1/num2;
+  }
+  else{
+    return "Not Allowed";
+  }
+}
